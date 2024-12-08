@@ -1,12 +1,12 @@
 #include <stdio.h>
 // Two operand one operator
 void main() {
-  long x, y;
+  float x, y;
   char ch;
   printf("Enter First Operand ");
-  scanf("%d", &x);
+  scanf("%f", &x);
   printf("Enter Second Operand ");
-  scanf("%d", &y);
+  scanf("%f", &y);
   printf("Enter Operator ");
   scanf(" %c", &ch);
 
@@ -26,7 +26,7 @@ void main() {
     break;
 
   case '/':
-    printf("Result:%d", x / y);
+    printf("Result:%f",  (x / y));
     break;
 
   default:
